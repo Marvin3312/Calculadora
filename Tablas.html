@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <main>
+    <div class="cuerpo">
         <div class="calculadora">
 
             <div class="pantalla">0</div>
@@ -36,28 +36,43 @@
             <table id="miTabla">
                 <div class="cabezal-tabla">
                 <tr>
-                    <th>Variable</th>
-                    <th>frecuencia</th>
+                    <th>clase</th>
+                    <th>f</th>
                     <th>MC</th>
+                    <th>x-x</th>
+                    <th>f*x</th>
+                    <th>f*x x-x</th>
                 </tr>
                 </div>
                 
                 <tr>
-                    <td><input type="text" id="nombre1"></td>
-                    <td><input type="text" id="edad1"></td>
-                    <td><input type="text" id="salario1"></td>
+                    <td><input type="text" id="variable"></td>
+                    <td><input type="text" id="frecuencia"></td>
+                    <td><input type="text" id="marca de clase"></td>
+                    <td><input type="text" id="x-x"></td>
+                    <td><input type="text" id="f*x"></td>
+                    <td><input type="text" id="f*x /x-x"></td>
+          
                 </tr>
                 <tr>
-                    <td><input type="text" id="nombre2"></td>
-                    <td><input type="text" id="edad2"></td>
-                    <td><input type="text" id="salario2"></td>
-                </tr>
-            </table>
-            
-        <button onclick="agregarFila()">Agregar Fila</button>
-        <script src="myjscript.js"></script>
+                   
+                </tr>   
+         </table>
+         
+         
+        </div> 
+        <input id="respuesta"type="text" id="variable">
+        <div>
+            <button  class="boton-enlace"onclick="agregarFila()">Agregar Fila</button>  
+            <a href="index.html" class="boton-enlace">Inicio</a>
+                
+        </div>
+      
+   
 
-    </main>
+        <script src="myjscript.js"></script>
+        
+      
     
 </body>
 </html>

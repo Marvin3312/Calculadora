@@ -61,7 +61,7 @@ function agregarFila() {
     const tabla = document.getElementById('miTabla');
     const newRow = tabla.insertRow(tabla.rows.length - 1); // Insertar antes de la última fila (fila de botón).
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 6; i++) {
         const cell = newRow.insertCell(i);
         const input = document.createElement('input');
         input.type = 'text';

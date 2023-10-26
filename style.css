@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -25,13 +25,16 @@ body{
     grid-column: 1/-1;
     background-color: #090c31;
     padding: 1.5rem;
-    font-size:2rem;
+    font-size:1.5rem;
     text-align: right;
     border-radius: .5rem;
     margin-bottom: 1rem;
     font-family: monospace;
-    font-weight: 600;
+    font-weight: 10px;
     margin: 1rem;
+    max-width: 500px;
+    max-height: auto;
+    overflow: auto;
 }
 
 .btn {
@@ -65,10 +68,54 @@ body{
 }
 
 #miTabla{
-    background-color: white;
+    background-color: #fefefe;
     border-radius: .5rem;
     display:grid;
     place-items: center;
-    margin-top: .5rem;   
+    margin-top: .5rem; 
+      
    
 }
+.cuerpo{
+    display: inline-flex;
+    
+}
+
+.agregar{
+    margin-top: px;
+    
+}
+
+input{
+    width: 50px;
+}
+
+#respuesta{
+    display: flex;
+    width: 250px;
+    height: 15vh;
+    max-width: 350rem;
+}
+
+body{
+    margin-top: 0;
+
+}
+
+.boton-enlace {
+    display: inline-block;
+    height: 2.5rem;
+    background-color: white; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    padding: 1rem 2rem; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+   
+  }
+  
+  .boton-enlace:hover {
+    background-color: #e6394a; /* Cambia el color de fondo al pasar el cursor */
+  }
